@@ -104,7 +104,32 @@ header {
     user-select: none;
 }
 
+.espacio {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+}
 
+.final {
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+    min-width: 400px;
+}
 
+.final1 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+
+.final1a a, .final1b a, .final2 p {
+    font-size: 1.4rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    color: #70757a;
+    margin: 0 20px;
+}
 
 
